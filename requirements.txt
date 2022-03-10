@@ -1,5 +1,5 @@
 PyQt5
 astc-decomp
 pyliblzfse
-plistlib
+pillow
 pandas
