@@ -1,0 +1,4 @@
+Samsung Cache Parser||||Requirements:|| Android 7+|| Full File System (zip/tar archive)||||Directories/Files:|| /data/data/com.sec.android.app.myfiles|| /data/media
+com.sec.android.app.myfiles/cache
+com.sec.android.app.myfiles/databases/FileCache.db
+com.android.providers.media/databases/external.db

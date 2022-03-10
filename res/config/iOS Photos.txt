@@ -1,0 +1,3 @@
+Apple Photos||||Requirements:|| iOS 12+|| Full File System (zip/tar archive)||||Directories/Files:|| /private/var/mobile/Media/PhotoData||||mift will ingest the entire file system or you can provide just the PhotoData folder.
+PhotoData/Photos.sqlite
+PhotoData/Thumbnails/V2

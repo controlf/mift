@@ -1,0 +1,5 @@
+Yogesh Khatri - KTX > PNG script/executable
+https://github.com/ydkhatri/MacForensics/tree/master/IOS_KTX_TO_PNG
+
+CCL Forensics Binary Plist Parser
+https://github.com/cclgroupltd/ccl-bplist
