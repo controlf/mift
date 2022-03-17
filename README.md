@@ -29,6 +29,9 @@ systems
 To build an executable file, execute 'pyinstaller spec.spec' from a command shell 
 in the root directory of mift.
 
+NB: This tool currently supports iOS version <= 14.7. Support for iOS 15 is 
+currently under development.
+
 
 Contact/Author - mike.bangham@controlf.co.uk
 
