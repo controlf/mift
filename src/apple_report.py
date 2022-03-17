@@ -267,14 +267,17 @@ class MakeAppleReportThread(QThread):
 
     @staticmethod
     def get_address(hex_string):
-        obj_nk = decode_bplist(hex_string, hxd=True)
-        try:
-            address = ''
-            for part in ['_street', '_city', '_postalCode', '_country']:
-                address += '{} '.format(obj_nk['root']['postalAddress'][part])
-            return address
-        except:
-            return 'unknown'
+        if hex_string != 'NULL':
+            obj_nk = decode_bplist(hex_string, hxd=True)
+            try:
+                address = ''
+                for part in ['_street', '_city', '_postalCode', '_country']:
+                    address += '{} '.format(obj_nk['root']['postalAddress'][part])
+                return address
+            except:
+                return 'unknown'
+        else:
+            return 'NULL'
 
     def get_cloud_information(self):
         cloud_user_details = ''
@@ -328,7 +331,7 @@ class MakeAppleReportThread(QThread):
                         break
                     except Exception as e:
                         logging.error('Master Fingerprint: {} - error '
-                                      'identifying cloud ownership'.format(row.Master_Fingerprint))
+                                      'identifying cloud ownership - might not be an owner - {}'.format(row.Master_Fingerprint, e))
                         pass
         return cloud_owner
 
@@ -467,7 +470,6 @@ class MakeAppleReportThread(QThread):
             row_position = count * 500
             for row in self.photos_df.iloc[row_position:row_position + 500].itertuples():
                 self.progressSignal.emit(1)
-                decode_bplist(row.Location_Lookup)
                 # lets use the thumbnails to display the image and the videos in the html report. Apple have already
                 # converted the HEIF files to JPGs and they are good quality.
                 thumbnail_path_absolute = pj(self.photodata_dir, 'Thumbnails',

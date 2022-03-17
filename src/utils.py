@@ -35,6 +35,7 @@ import sqlite3
 import time
 import pandas as pd
 import codecs
+import shutil
 from io import BytesIO
 import plistlib
 
@@ -119,6 +120,8 @@ def decode_bplist(data, hxd=False):
             return False
     else:
         # using a buffered stream so we can work on them only in memory.
+        print(data)
+        print(type(data))
         try:
             plist_dict = plistlib.load(BytesIO(data))  # convert our bplist as bytes to a dictionary object
             plist = ccl_bplist.load(BytesIO(plist_dict))  # buffer the dictionary so we can deserialise the keys

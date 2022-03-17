@@ -30,6 +30,7 @@ from os.path import join as pj
 from os.path import basename, abspath
 import zipfile
 import tarfile
+import logging
 
 from src.utils import resource_path
 
@@ -72,10 +73,13 @@ class ExtractArchiveThread(QThread):
                             if archive_member.endswith('/'):
                                 os.makedirs(self.save_dir+'/'+archive_member, exist_ok=True)
                             else:
-                                file = self.save_dir+'/{}'.format(archive_member)
-                                with open(file, 'wb') as file_out:
-                                    zip_fmem = zip_obj.read(archive_member)
-                                    file_out.write(zip_fmem)
+                                file = abspath(self.save_dir+'/{}'.format(archive_member))
+                                try:
+                                    with open(file, 'wb') as file_out:
+                                        zip_fmem = zip_obj.read(archive_member)
+                                        file_out.write(zip_fmem)
+                                except:
+                                    logging.error('cant copy file: {}'.format(file))
 
         else:
             self.progressSignal.emit('Archive is tarfile, processing members...')
@@ -104,8 +108,11 @@ class ExtractArchiveThread(QThread):
                                 os.makedirs(self.save_dir+'/'+member.name.replace(':', ''), exist_ok=True)
                             else:
                                 file = self.save_dir+'/{}'.format(member.name.replace(':', ''))
-                                with open(file, 'wb') as file_out:
-                                    tar_fmem = tar_obj.extractfile(member)
-                                    file_out.write(tar_fmem.read())
+                                try:
+                                    with open(file, 'wb') as file_out:
+                                        tar_fmem = tar_obj.extractfile(member)
+                                        file_out.write(tar_fmem.read())
+                                except:
+                                    logging.error('cant copy file: {}'.format(file))
 
         self.finishedSignal.emit('Archive processed!')
