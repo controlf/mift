@@ -1,3 +1,6 @@
+v1.09.1
+- Improved error handling around handling NULL bplists
+
 v1.09
 - Bug fixes - General
 
