@@ -20,17 +20,21 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
+Supports Python versions 3.6, 3.7, 3.8 & 3.9
+NB: This tool currently supports iOS versions <= 15.4
 
 'mift' (Mobile Image Forensic Toolkit) is a forensic media analysis tool 
 developed by Control-F supporting artefacts for the Android and iOS operating 
 systems
 
+To install dependencies, execute 'pip install -r requirements.txt' in the root
+directory of mift. To install the required modules on an offline machine, such
+as a forensic workstation, use the install script in the 'offline_install'
+directory. Execute with 'python install.py'
+
 To build an executable file, execute 'pyinstaller spec.spec' from a command shell 
 in the root directory of mift.
 
-NB: This tool currently supports iOS version <= 14.7. Support for iOS 15 is 
-currently under development.
 
 
 Contact/Author - mike.bangham@controlf.co.uk
