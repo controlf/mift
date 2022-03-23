@@ -29,8 +29,9 @@ systems
 
 To install dependencies, execute 'pip install -r requirements.txt' in the root
 directory of mift. To install the required modules on an offline machine, such
-as a forensic workstation, use the install script in the 'offline_install'
-directory. Execute with 'python install.py'
+as a forensic workstation, use the install script in the '/offline_install'
+directory. Execute with 'python install.py'. Offline install only supports 
+Python 3.8.
 
 To build an executable file, execute 'pyinstaller spec.spec' from a command shell 
 in the root directory of mift.
