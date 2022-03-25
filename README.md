@@ -1,5 +1,7 @@
 mift [ latest version: v1.09.4 ]
+mift currently supports iOS versions <= 15.4
 
+=========================================================================================
 MIT License
 
 mift - Copyright (c) 2021-2022 Control-F
@@ -22,8 +24,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+=========================================================================================
+
 Supports Python versions 3.6, 3.7, 3.8 & 3.9
-NB: This tool currently supports iOS versions <= 15.4
+
+=========================================================================================
 
 'mift' (Mobile Image Forensic Toolkit) is a forensic media analysis tool 
 developed by Control-F supporting artefacts for the Android and iOS operating 
@@ -45,13 +50,14 @@ To build an executable file, execute 'pyinstaller spec.spec' from a command shel
 in the root directory of mift. Alternatively, execute 'python build_exe.py' in the
 '/build_exe' directory of mift.
 
+=========================================================================================
 
+Contact/Author:
+mike.bangham@controlf.co.uk
 
-Contact/Author - mike.bangham@controlf.co.uk
+=========================================================================================
 
-
-
-Credits
+Credits:
 
 Yogesh Khatri
 https://github.com/ydkhatri/MacForensics/tree/master/IOS_KTX_TO_PNG
