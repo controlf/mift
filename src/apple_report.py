@@ -140,7 +140,7 @@ class MakeAppleReport(QWidget):
             conn.close()
             return cloudstore_df
         else:
-            return None
+            return pd.DataFrame()  # empty dataframe
 
     def build_photos_dataframe(self):
         with open(resource_path('photos_sqlite_query.txt'), 'r') as psq:
