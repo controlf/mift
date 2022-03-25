@@ -174,7 +174,7 @@ class MakeAppleReport(QWidget):
             sql_query = sql_query.replace('#SHARE_TABLE#', 'ZSHARE')
 
         cursor.execute("PRAGMA table_info(ZADDITIONALASSETATTRIBUTES)")
-        if 'ZCREATORBUNDLEID' not in cursor.fetchall():  # iOS_15 uses ZIMPORTEDBYBUNDLEIDENTIFIER
+        if 'ZIMPORTEDBYBUNDLEIDENTIFIER' in cursor.fetchall():  # iOS_15 uses ZIMPORTEDBYBUNDLEIDENTIFIER
             sql_query = sql_query.replace('ZCREATORBUNDLEID', 'ZIMPORTEDBYBUNDLEIDENTIFIER')
 
         #cursor.execute("PRAGMA table_info(ZMOMENT)")
