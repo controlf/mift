@@ -174,7 +174,9 @@ class MakeAppleReport(QWidget):
             sql_query = sql_query.replace('#SHARE_TABLE#', 'ZSHARE')
 
         cursor.execute("PRAGMA table_info(ZADDITIONALASSETATTRIBUTES)")
-        if 'ZIMPORTEDBYBUNDLEIDENTIFIER' in cursor.fetchall():  # iOS_15 uses ZIMPORTEDBYBUNDLEIDENTIFIER
+        tables = [i[1] for i in cursor]
+        print(tables)
+        if 'ZIMPORTEDBYBUNDLEIDENTIFIER' in tables:  # iOS_15 uses ZIMPORTEDBYBUNDLEIDENTIFIER
             logging.info('iOS >= 15 detected. Using ZIMPORTEDBYBUNDLEIDENTIFIER')
             sql_query = sql_query.replace('ZCREATORBUNDLEID', 'ZIMPORTEDBYBUNDLEIDENTIFIER')
 
