@@ -1,3 +1,6 @@
+v1.09.3
+- Bug fixes
+
 v1.09.2
 - Support for iOS 15.x
 - Offline install added for Windows x64 builds running Python 3.8.x
