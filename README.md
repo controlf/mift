@@ -1,4 +1,4 @@
-mift [latest version: v1.09.4]
+mift [ latest version: v1.09.4 ]
 
 MIT License
 
