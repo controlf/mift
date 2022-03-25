@@ -1,7 +1,9 @@
 mift [ latest version: v1.09.4 ]
+
 mift currently supports iOS versions <= 15.4
 
 =========================================================================================
+
 MIT License
 
 mift - Copyright (c) 2021-2022 Control-F
