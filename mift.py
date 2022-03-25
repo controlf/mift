@@ -34,7 +34,7 @@ https://github.com/cclgroupltd/ccl-bplist
 """
 
 __author__ = 'Mike Bangham - Control-F'
-__version__ = '1.09.3'
+__version__ = '1.09.4'
 __description__ = 'Mobile Image Forensic Toolkit'
 
 from PyQt5.QtWidgets import (QApplication, QWidget, QPushButton, QMainWindow, QDialog, QLabel, QGridLayout,
