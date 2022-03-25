@@ -40,7 +40,8 @@ Once downloaded, execute:
 'pip install PyQt5-5.15.2-5.15.2-cp35.cp36.cp37.cp38.cp39-none-win_amd64.whl'
 
 To build an executable file, execute 'pyinstaller spec.spec' from a command shell 
-in the root directory of mift.
+in the root directory of mift. Alternatively, execute 'python build_exe.py' in the
+'/build_exe' directory of mift.
 
 
 
