@@ -1,0 +1,6 @@
+PyQt5
+astc-decomp
+pyliblzfse
+pillow
+pandas
+opencv-python==4.5.3.56
