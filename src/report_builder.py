@@ -172,7 +172,7 @@ class XLSXReportThread(QThread):
         writer = pd.ExcelWriter(self.output_fp, engine='xlsxwriter')
         if 'meta' in self.save_details:
             meta_df = pd.DataFrame(self.save_details['meta'], index=[0])
-        meta_df.to_excel(writer, sheet_name='Info')
+            meta_df.to_excel(writer, sheet_name='Info')
         self.df.to_excel(writer, sheet_name='data')
         writer.save()
         self.finishedSignal.emit(self.output_dir)
