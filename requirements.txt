@@ -1,5 +1,0 @@
-PyQt5
-astc-decomp
-pyliblzfse
-pillow
-pandas
