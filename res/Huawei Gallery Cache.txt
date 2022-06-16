@@ -1,0 +1,3 @@
+Huawei Cache Parser||||Requirements:|| EMUI8+|| Full File System (zip/tar archive)||||Directories/Files:|| /media/0/|| /data/com.android.gallery3d/cache|| /data/data/com.android.gallery3d/databases
+com.android.gallery3d/databases
+com.android.gallery3d/cache/imgcache.0
