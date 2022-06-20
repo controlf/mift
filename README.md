@@ -1,4 +1,4 @@
-mift [ latest version: v1.10 ]
+mift [ latest version: v1.11 ]
 
 mift currently supports iOS versions <= 15.x
 
