@@ -122,8 +122,7 @@ def generate_thumbnail(fp, thmbsize=128):
                 cap = cv2.VideoCapture(fp)
                 _, cv2_img = cap.read()
                 cv2_img = cv2.cvtColor(cv2_img, cv2.COLOR_BGR2RGB)
-                img = PIL.Image.fro
-                marray(cv2_img)
+                img = PIL.Image.fromarray(cv2_img)
                 file_ext = 'JPEG'
             except:
                 img = PIL.Image.open(resource_path('blank_jpeg.png'), 'r')
