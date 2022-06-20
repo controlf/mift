@@ -25,7 +25,7 @@ SOFTWARE.
 """
 
 __author__ = 'Mike Bangham - Control-F'
-__version__ = '1.10'
+__version__ = '1.11'
 __description__ = 'Mobile Image Forensic Toolkit'
 
 from PyQt5.QtWidgets import (QDialog, QWidget, QApplication, QDialogButtonBox, QGridLayout, 
