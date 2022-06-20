@@ -132,6 +132,7 @@ class CleanTemp(QThread):
     def __init__(self, temp_output_dir):
         QThread.__init__(self, parent=None)
         self.temp_output_dir = temp_output_dir
+        self.temp_dirs = list()
         if exists(self.temp_output_dir):
             self.temp_dirs = [pj(self.temp_output_dir, d) for d in os.listdir(self.temp_output_dir)]
 
