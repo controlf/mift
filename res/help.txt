@@ -1,8 +1,0 @@
-Memories & Moments
-Apple Memories is a feature on iOS that providers users the ability to rediscover 'Moments' from within their photo library. Using GPS and reverse location lookups, iOS Photos recognizes significant people, places, and events from the images and videos captured as Moments, then presents them in curated collections called Memories. Memories can be both ceated by the user and automatically by the iOS device.
-
-iCloud
-iCloud Photos automatically stores an original copy of all user photos and videos on remote Apple servers, syncing said media across all connected devices that share the same iCloud account. Unless a user modifies the settings, lightweight, lower resolution copies of these files are synced with said devices while the originals remain on the server. iCloud offers Shared Albums to users so they can share an album with selected individuals. Comments can be created for media by those who have shared access.
-
-Adjustments
-iOS gives users to ability to modify and adjust captured or stored media. This can include cropping, enhancing and converting a photo or trimming a video by reducing the frames. An adjusted media file can be saved as a new file, or in place of the existing file. The original filename and the adjustment details can provide insight into the previous name, the application used to make the adjustment and the timestamp of the adjustment. If the mutated version is saved a new file, the original file is kept in the DCIM directory while the mutated copy is stored in /PhotoData/Mutations/
