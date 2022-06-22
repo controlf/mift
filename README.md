@@ -1,4 +1,5 @@
 mift v1.12
+
 mift - Mobile Image Forensic Toolkit
 
 Control-F   (2021-2022)
@@ -7,12 +8,16 @@ Author/Contact - mike.bangham@controlf.co.uk | Mike Bangham | Control-F
 
 mift is an open source tool for a deeper analysis of media files found on Android and iOS mobile devices.
 
-mift currenlty supports parsers for:
+mift currently supports parsers for:
 
 iOS (snapshots, media) <= 15.x
+
 Samsung Gallery >= Android 10
+
 Samsung Cache >= Android 7
+
 Huawei Cache >= Android 8
+
 Sony Cache >= Android 9
 
 -----------------------------------------------------------------------------
