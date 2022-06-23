@@ -1,4 +1,0 @@
-Sony Cache Parser||||Requirements:|| Android 9+\nFull File System (zip/tar archive)||||Directories/Files:|| /data/data/com.sonyericsson.album|| /data/media|| /databases/external.db
-com.sonyericsson.album/cache
-com.sonyericsson.album/databases/picnic
-databases/external.db
