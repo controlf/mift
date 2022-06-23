@@ -1,4 +1,4 @@
-mift v1.12
+mift v1.13
 
 mift - Mobile Image Forensic Toolkit
 
