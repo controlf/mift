@@ -1,0 +1,4 @@
+Samsung Gallery Parser||||Requirements:|| Android 7+|| Full File System (zip/tar archive)||||Directories/Files:|| 
+/databases/external.db
+/databases/cmh.db
+/databases/media.db
