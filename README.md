@@ -1,6 +1,6 @@
 mift v1.13
 
-mift - Mobile Image Forensic Toolkit
+mift - a mobile image forensic toolkit
 
 Control-F   (2021-2022)
 
