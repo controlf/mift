@@ -1,2 +1,0 @@
-Apple Snapshots||||Requirements:|| iOS 10+|| Full File System (zip/tar archive)||||Directories/Files:|| /private/var/mobile/Library/FrontBoard/applicationState.db
-FrontBoard/applicationState.db
