@@ -1,38 +1,31 @@
 mift v1.14
 
 mift - a mobile image forensic toolkit
+-----------------------------------------------------------------------------
 
 Control-F   (2021-2022)
 
 Author/Contact - mike.bangham@controlf.co.uk | Mike Bangham | Control-F
+-----------------------------------------------------------------------------
 
 mift is an open source tool for a deeper analysis of media files found on Android and iOS mobile devices.
 
 mift currently supports parsers for:
 
-iOS (snapshots, media) <= 15.x
+* iOS (snapshots, media) <= 15.x
 
-Samsung Gallery >= Android 10
+* Samsung Gallery >= Android 10
 
-Samsung Cache >= Android 7
+* Samsung Cache >= Android 7
 
-Huawei Cache >= Android 8
+* Huawei Cache >= Android 8
 
-Sony Cache >= Android 9
+* Sony Cache >= Android 9
 
-
+-----------------------------------------------------------------------------
 Building mift
 
-* The simplest way to build mift is to build the precompiled executable from /build_exe.
-
-Due to GitHub file size restrictions, the precompiled executable: 'mift.exe' has been broken into chunks. 
-
-Using the batch script in the /build_exe  directory found in the root of mift, an executable can be 
-
-generated which concatenates the chunks.
-
-* Otherwise, please install all the required dependencies and use the spec.spec file provided.
-
+The simplest way to build mift is to build the precompiled executable from /build_exe. Due to GitHub file size restrictions, the precompiled executable: 'mift.exe' has been broken into chunks. Using the batch script in the /build_exe  directory found in the root of mift, an executable can be generated which concatenates the chunks. Otherwise, please install all the required dependencies and use the spec.spec file provided.
 
 -----------------------------------------------------------------------------
 MIT License
