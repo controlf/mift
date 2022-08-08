@@ -5,7 +5,8 @@ mift - a mobile image forensic toolkit
 
 Control-F   (2021-2022)
 
-Author/Contact - mike.bangham@controlf.co.uk | Mike Bangham | Control-F
+Author/Contact - mike.bangham@controlf.co.uk
+
 -----------------------------------------------------------------------------
 
 mift is an open source tool for a deeper analysis of media files found on Android and iOS mobile devices.
