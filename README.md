@@ -1,4 +1,4 @@
-mift v1.14
+mift v1.15
 
 mift - a mobile image forensic toolkit
 -----------------------------------------------------------------------------
@@ -14,6 +14,8 @@ mift is an open source tool for a deeper analysis of media files found on Androi
 mift currently supports parsers for:
 
 * iOS (snapshots, media) <= 15.x
+
+* Android Recents >= Android 5
 
 * Samsung Gallery >= Android 10
 
