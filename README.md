@@ -1,4 +1,4 @@
-mift v1.15
+mift v1.16
 
 mift - a mobile image forensic toolkit
 -----------------------------------------------------------------------------
@@ -34,7 +34,7 @@ The simplest way to build mift is to build the precompiled executable from /buil
 MIT License
 
 mift
-Copyright (c) 2021-2022 Control-F
+Copyright (c) 2021-2023 Control-F
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software, 'mift', and associated documentation files (the "Software"), to deal
