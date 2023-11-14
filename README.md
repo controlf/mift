@@ -13,7 +13,7 @@ mift is an open source tool for a deeper analysis of media files found on Androi
 
 mift currently supports parsers for:
 
-* iOS (snapshots, media) <= 15.x
+* iOS (snapshots, media) <= 16.x
 
 * Android Recents >= Android 5
 
