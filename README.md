@@ -3,7 +3,7 @@ mift v1.16
 mift - a mobile image forensic toolkit
 -----------------------------------------------------------------------------
 
-Control-F   (2021-2022)
+Control-F   (2021-2023)
 
 Author/Contact - mike.bangham@controlf.co.uk
 
